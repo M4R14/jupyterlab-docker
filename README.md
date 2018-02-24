@@ -5,4 +5,4 @@
 $ docker-compose up
 ```
 #### Demo
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Hellow jupyter lab.")
+![alt text](https://github.com/M4R14/jupyterlab-docker/blob/master/example.png "Hellow jupyter lab.")
