@@ -1,2 +1,2 @@
 .env
-./config/migrated
+config/migrated
