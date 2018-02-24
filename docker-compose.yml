@@ -6,8 +6,7 @@ services:
       - 8888:8888
     environment: 
       TOKEN: mark
-      # PASSWORD: demox
-      # allow_password_change: 'False'
+      PASSWORD: demox
     volumes:
       - ./config:/root/.jupyter
       - ./app:/home
