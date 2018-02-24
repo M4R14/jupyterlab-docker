@@ -1,0 +1,14 @@
+version: '3'
+services:
+  jupyterlab:
+    build: .
+    ports:
+      - 8888:8888
+    environment: 
+      TOKEN: mark
+      # PASSWORD: demox
+      # allow_password_change: 'False'
+    volumes:
+      - ./config:/root/.jupyter
+      - ./app:/home
+    command: "jupyter notebook"
