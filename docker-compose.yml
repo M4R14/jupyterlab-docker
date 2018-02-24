@@ -10,4 +10,4 @@ services:
     volumes:
       - ./config:/root/.jupyter
       - ./app:/home
-    command: "jupyter notebook"
+    command: "jupyter lab"
